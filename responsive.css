@@ -1,0 +1,105 @@
+@media screen and (max-width: 480px) {
+    .nav {
+      flex-direction: column;
+    }
+    .nav a {
+      padding-top: vh;
+    }
+    .brand {
+      justify-content: center;
+      margin: 12px 0;
+    }
+    .nav .navigation a {
+      justify-content: center;
+      height: 34px;
+    }
+  
+    .text h3 {
+      font-size: 1.5em;
+    }
+    .main .content h2 {
+      font-size: 1em;
+    }
+    .fa-2x {
+      font-size: 1em;
+    }
+    section.main {
+      display: flex;
+      flex-direction: column;
+    }
+    .left .content {
+      text-align: center;
+    }
+  
+    .section-title {
+      font-size: 1em;
+    }
+  
+    .about .content .col-left .img-card img {
+      position: none;
+      width: 110%;
+    }
+    .section-title {
+      font-size: 2em;
+  
+      .skills .content .column {
+        position: relative;
+        width: 100%;
+      }
+      .skills .content .col-right {
+        margin-top: 40px;
+      }
+      .column col-right {
+        display: grid;
+      }
+      .skills .content .col-left .content-title {
+        margin-bottom: 20px;
+        margin-left: -130px;
+      }
+      .skills p {
+        float: right;
+      }
+    }
+  }
+  
+  @media screen and (max-width: 1100px) {
+    header {
+      padding: 12px 20px;
+    }
+    .main {
+      position: relative;
+    }
+    .content {
+      padding: 10px;
+    }
+    .image1 {
+      position: absolute;
+      top: 230px;
+      left: 50vh;
+      margin-left: -363px;
+    }
+    .main .content {
+      width: 27vw;
+    }
+    .main .content h2 {
+      color: #fff;
+      font-size: 1em;
+      font-weight: 500;
+      line-height: 23px;
+    }
+    .text h3 {
+      color: #4e9eff;
+      font-size: 0.9em;
+      font-weight: 700;
+      line-height: 70px;
+      letter-spacing: 1px;
+    }
+    .skills .content .col-left .content-title {
+      margin-bottom: 20px;
+      margin-left: -103px;
+    }
+    .skills .content .col-left p {
+      margin-left: -102px;
+    }
+  }
+  
